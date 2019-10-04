@@ -485,6 +485,10 @@ footer ul li p{
 	display: none;
 }
 
+#AB {
+	padding-top: 16%
+}
+
 
 @media only screen and (min-width: 700px) {
 	footer {
