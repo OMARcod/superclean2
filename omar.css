@@ -104,7 +104,7 @@ p {
 
 /*Just For The Size of Photos*/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
 	
 
 
@@ -308,7 +308,7 @@ header button:hover {
 
 /*Header Size*/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
 	.samer {
 		display: none;
 	}
@@ -413,9 +413,7 @@ header button:hover {
 }
 }
 
-
 /*Text i Mitten*/
-
 .mittText {
 	margin: 0 auto;
 	padding: 30px;
@@ -433,22 +431,47 @@ header button:hover {
 
 footer {
 	display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-	background-color: #525151;
+		grid-template-columns: 200px  1fr;
+	background-color: #343434;
 	margin-top: 20px;
-	padding: 30px 30px;
+	padding: 20px 20px;
+	box-shadow: 1px 2px 8px black;
 	
 	
+	
+}
+footer ul li {
+  list-style-type: none;
+
 }
 
 footer ul li a{
-    color:white;
-   
-    text-transform: uppercase;
+    color: white;
+	font-weight: bold;
+   text-shadow: 0px 0px 8px #111;
+    
+}
+.footer-sm  a{
+	
+	float: right;
+	clear: both;
+	
+}
+.footer-sm img{
+    width: 40px;
 }
 
-.footer-sm {
-    
+.footerbox2 {
+	display: none;
+}
+
+
+@media only screen and (min-width: 700px) {
+footer {
+	
+	padding: 30px 10%;
+	
+	
 }
 
 /*
