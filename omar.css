@@ -322,10 +322,60 @@ header button:hover {
 }
 
 
+
 /*Header Size*/
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 933px) {
 	.logo-img2 {
+		display: none;
+	}
+
+	header img {
+		display: block;
+	}
+
+	.contact {
+		display: none;
+	}
+	
+
+
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 30px 10%;
+	}
+
+	.logo-img {
+		cursor: pointer;
+		height: 50px;
+		border-right: 2px black solid;
+		padding-right: 30px;
+	}
+
+	.nav_links {
+		list-style: none;
+		margin-right: 130px
+	}
+
+	.nav_links li {
+		display: inline-block;
+		padding: 0px 20px;
+	}
+
+	header p {
+		font-weight: bold;
+
+		border: none;
+		border-radius: 0px;
+		padding: 0px;
+		box-shadow: 0px 0px;
+	}
+}
+
+@media only screen and (min-width: 1077px) {
+		.logo-img2 {
 		display: none;
 	}
 
@@ -369,9 +419,10 @@ header button:hover {
 		padding: 0px;
 		box-shadow: 0px 0px;
 	}
-}
+	
 
-@media only screen and (min-width: 1070px) {}
+
+}
 
 
 
