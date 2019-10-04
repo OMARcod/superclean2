@@ -264,7 +264,7 @@ header p {
 	box-shadow: 1px 0px 10px #d3d0d0;
 }
 
-.samer {
+.logo-img2 {
 	cursor: pointer;
 	height: 48px;
 	margin: 0 auto;
@@ -276,7 +276,7 @@ header p {
 	display: none;
 }
 
-.telephone {
+.logo-img {
 	cursor: pointer;
 	height: 30px;
 	border-right: 2px black solid;
@@ -325,7 +325,7 @@ header button:hover {
 /*Header Size*/
 
 @media only screen and (min-width: 700px) {
-	.samer {
+	.logo-img2 {
 		display: none;
 	}
 
@@ -344,7 +344,7 @@ header button:hover {
 		padding: 30px 10%;
 	}
 
-	.telephone {
+	.logo-img {
 		cursor: pointer;
 		height: 50px;
 		border-right: 2px black solid;
@@ -463,7 +463,7 @@ footer ul li {
 
 }
 
-footer ul li p {
+footer ul li p{
 	color: white;
 	font-weight: bold;
 	text-shadow: 0px 0px 8px #111;
